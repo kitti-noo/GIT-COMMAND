@@ -15,18 +15,20 @@
 - git commit -am "text"
 ## git remote
 - git remote add origin [URL]
-## git push
-- git push -u origin master
+## git push : การส่ง commit ที่ Local Repository ไปยัง Remote Repository
+- git push -u origin [brand name]
 - git push -f
 ## git reset : เอาไฟล์ที่ add ไปแล้วออกมาจาก staged ให้กลับมาเป็น modified
-## git clone 
-- git clone [URL]
-# SSH key 
-- ssh-keygen -t rsa -b 4096 -C "your_email@example.com" หรือ  ssh-keygen -o
-- cat ~/.ssh/id_rsa.pub 
-- copy ข้อความไปใส่ใน Setting --> SSH keys
-# git log out
+## git clone : การเอางานที่เราต้องการลงมาไว้ที่เครื่องเรา (ใช้กรณีที่ไม่เคยมี Repository นั้นมาก่อน)
+- git clone [URL] 
+## git log out : การดึง Remote Repository ไฟล์มายัง Local Repository เพื่อทำการอัพเดต 
 - git config --global --unset user.name
 - git config --global --unset user.email
 - git config --global --unset credential.helper
 - git config --global --unset-all 
+## git pull 
+- git pull origin [branch name]
+# SSH key 
+- ssh-keygen -t rsa -b 4096 -C "your_email@example.com" หรือ  ssh-keygen -o
+- cat ~/.ssh/id_rsa.pub 
+- copy ข้อความไปใส่ใน Setting --> SSH keys
