@@ -25,3 +25,8 @@
 - ssh-keygen -t rsa -b 4096 -C "your_email@example.com" หรือ  ssh-keygen -o
 - cat ~/.ssh/id_rsa.pub 
 - copy ข้อความไปใส่ใน Setting --> SSH keys
+# git log out
+- git config --global --unset user.name
+- git config --global --unset user.email
+- git config --global --unset credential.helper
+- git config --global --unset-all 
