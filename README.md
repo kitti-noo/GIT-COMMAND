@@ -21,12 +21,12 @@
 ## git reset : เอาไฟล์ที่ add ไปแล้วออกมาจาก staged ให้กลับมาเป็น modified
 ## git clone : การเอางานที่เราต้องการลงมาไว้ที่เครื่องเรา (ใช้กรณีที่ไม่เคยมี Repository นั้นมาก่อน)
 - git clone [URL] 
-## git log out : การดึง Remote Repository ไฟล์มายัง Local Repository เพื่อทำการอัพเดต 
+## git log out 
 - git config --global --unset user.name
 - git config --global --unset user.email
 - git config --global --unset credential.helper
 - git config --global --unset-all 
-## git pull 
+## git pull : การดึง Remote Repository ไฟล์มายัง Local Repository เพื่อทำการอัพเดต 
 - git pull origin [branch name]
 # SSH key 
 - ssh-keygen -t rsa -b 4096 -C "your_email@example.com" หรือ  ssh-keygen -o
