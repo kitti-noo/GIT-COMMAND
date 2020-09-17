@@ -2,6 +2,7 @@
 ## git config
 - git config -–global user.name "[user name]"
 - git config -–global user.email "[email address]" 
+- git config --global --edit : ลบ user และ email
 ## git init : เริ่มต้นการใช้งาน git
 ## git status : ตรวจสอบสถานะ
 ## git diff : รีวิวไฟล์ที่แก้ไปแล้ว (สถานะ modified) ผ่าน diff view
@@ -15,6 +16,8 @@
 - git commit -am "text"
 ## git remote
 - git remote add origin [URL]
+- git remote -v : ตรวจสอบ remote
+- git remote remove origin : ลบ remote origin
 ## git push : การส่ง commit ที่ Local Repository ไปยัง Remote Repository
 - git push -u origin [brand name]
 - git push -f
