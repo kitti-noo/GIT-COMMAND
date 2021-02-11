@@ -42,3 +42,9 @@
 - ssh-keygen -t rsa -b 4096 -C "your_email@example.com" หรือ  ssh-keygen -o
 - cat ~/.ssh/id_rsa.pub 
 - copy ข้อความไปใส่ใน Setting --> SSH keys
+## Git Hard Reset to old version
+- git reset --hard HEAD       (going back to HEAD)
+- git reset --hard HEAD^      (going back to the commit before HEAD)
+- git reset --hard HEAD~1     (equivalent to "^")
+- git reset --hard HEAD~2     (going back two commits before HEAD)
+- git reset --hard 0ad5a7a6   (going back to 0ad5a7a6)
