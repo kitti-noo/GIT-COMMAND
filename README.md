@@ -1,8 +1,8 @@
 # GIT command
 ## git config
-- git config -–global user.name "[user name]"
 - git config -–global user.email "[email address]" 
-- git config --global --edit : ลบ user และ email
+- git config -–global user.name "[user name]"
+- git config --global --edit : แก้ไข user และ email
 ## git init : เริ่มต้นการใช้งาน git ใน directory
 - git init
 ## git status : ตรวจสอบสถานะ
@@ -26,7 +26,7 @@
 ## git clone : การเอางานที่เราต้องการลงมาไว้ที่เครื่องเรา (ใช้กรณีที่ไม่เคยมี Repository นั้นมาก่อน)
 - git clone [URL]
 ## ลบ git init จาก directory
-- rm -rf .git/
+- rm -rf .git*
 ## git diff : รีวิวไฟล์ที่แก้ไปแล้ว (สถานะ modified) ผ่าน diff view
 - git diff --staged :  diff ไฟล์ที่ add แล้ว (สถานะ staged) แต่ยังไม่ได้ commit
 ## git reset : เอาไฟล์ที่ add ไปแล้วออกมาจาก staged ให้กลับมาเป็น modified
