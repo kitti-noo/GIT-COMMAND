@@ -1,7 +1,7 @@
 # GIT command
 ## git config
-- git config -–global user.email "[email address]" 
-- git config -–global user.name "[user name]"
+- git config --global user.email "[email address]" 
+- git config --global user.name "[user name]"
 - git config --global --edit : แก้ไข user และ email
 ## git init : เริ่มต้นการใช้งาน git ใน directory
 - git init
