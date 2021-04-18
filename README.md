@@ -48,3 +48,8 @@
 - git reset --hard HEAD~1     (equivalent to "^")
 - git reset --hard HEAD~2     (going back two commits before HEAD)
 - git reset --hard 0ad5a7a6   (going back to 0ad5a7a6)
+## The default branch has been renamed from master to main
+- git branch -m master main
+- git fetch origin
+- git branch -u origin/main main
+- git remote set-head origin -a
