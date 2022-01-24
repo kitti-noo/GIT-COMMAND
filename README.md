@@ -1,7 +1,7 @@
 # GIT command
 ## git config
-- git config --global user.email "[email address]" 
-- git config --global user.name "[user name]"
+- git config --global user.email "email address" 
+- git config --global user.name "user name"
 - git config --global --edit : แก้ไข user และ email
 ## git init : เริ่มต้นการใช้งาน git ใน directory
 - git init
@@ -21,10 +21,14 @@
 ## git push : การส่ง commit ที่ Local Repository ไปยัง Remote Repository
 - git push -u origin [brand name]
 - git push -f
-
+## git branch
+- git branch : check branch
+- git branch [branch_name] : create branch
+- git checkout [branch_name] : change branch
 
 ## git clone : การเอางานที่เราต้องการลงมาไว้ที่เครื่องเรา (ใช้กรณีที่ไม่เคยมี Repository นั้นมาก่อน)
 - git clone [URL]
+- git clone -b [branch_name] [URL]
 ## ลบ git init จาก directory
 - rm -rf .git*
 ## git diff : รีวิวไฟล์ที่แก้ไปแล้ว (สถานะ modified) ผ่าน diff view
